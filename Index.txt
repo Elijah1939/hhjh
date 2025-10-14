@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop Comparison Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f8f9fa;
+    }
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+    caption {
+      font-weight: bold;
+      margin-bottom: 10px;
+      caption-side: top;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #e3e3e3;
+    }
+    img {
+      width: 250px;
+      display: block;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Laptop Comparison</h1>
+
+  <table>
+    <caption>Comparison of Laptop Models (2025)</caption>
+    <tr>
+      <th rowspan="2">Model</th>
+      <th colspan="2">Performance</th>
+      <th rowspan="2">Price</th>
+    </tr>
+    <tr>
+      <th>Battery Life</th>
+      <th>Processor Speed</th>
+    </tr>
+    <tr>
+      <td>AlphaBook X</td>
+      <td>10 hours</td>
+      <td>3.1 GHz</td>
+      <td>$899</td>
+    </tr>
+    <tr>
+      <td>ZenLite 14</td>
+      <td>14 hours</td>
+      <td>2.9 GHz</td>
+      <td>$749</td>
+    </tr>
+    <tr>
+      <td>ProMax 17</td>
+      <td>8 hours</td>
+      <td>3.6 GHz</td>
+      <td>$1,099</td>
+    </tr>
+  </table>
+
+  <h2>Conclusions</h2>
+  <ul>
+    <li>The ZenLite 14 offers the best battery life for its price, making it ideal for students or travelers.</li>
+    <li>The ProMax 17 has the fastest processor but also the shortest battery life and highest price.</li>
+    <li>AlphaBook X provides a balanced option for users wanting solid performance at a mid-range price.</li>
+  </ul>
+
+  <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/woman-1836347_1280.jpg" alt="Young woman typing on a laptop">
+
+</body>
+</html>
